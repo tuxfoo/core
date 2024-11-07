@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import logging
 
-from mycroftapi import MycroftAPI
+from .neon import MycroftAPI
 
 from homeassistant.components.notify import BaseNotificationService
 from homeassistant.core import HomeAssistant
